@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5;url=http://34.139.90.164/"> <!-- Redirect after 5 seconds -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect Loading</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .spinner {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+    .loading-text {
+      font-size: 4vw; /* Responsive size */
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace spinner.png with your actual spinner image -->
+  <img src="spinner.png" alt="Loading..." class="spinner">
+  <div class="loading-text">Loading please wait</div>
+</body>
+</html>
